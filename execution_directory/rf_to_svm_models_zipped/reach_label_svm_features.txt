@@ -1,0 +1,6 @@
+reach
+avg_elbow_angle
+avg_back_angle
+rider_torso_length
+rider_arm_length
+rider_inseam_length

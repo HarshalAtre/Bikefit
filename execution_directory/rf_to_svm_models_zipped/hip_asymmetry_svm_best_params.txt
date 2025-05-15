@@ -1,0 +1,3 @@
+C: 100
+gamma: auto
+kernel: rbf
