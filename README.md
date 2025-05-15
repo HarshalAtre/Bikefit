@@ -74,7 +74,8 @@ CYCLOPEDIA:
 Contains scripts and data for Android Frontend Integration. For more details refer to the Readme in the CYCLOPEDIA Directory
 Takes 3 inputs, 8 photos and 2 videos from the user, and sends it to the backend using FlaskAPI endpoint.
 
-Execution Directory:
+Execution Directory: -
+
     -App.py: This script runs on server startup and keeps listening to port 7860, and when the backend receives a request from the client to process incoming data, it calls the following scripts.
     
     -side_final_v3.py: This script processes the incoming calibration images, and side.mp4 to produce the Aruco calibration matrix and side_features.csv
