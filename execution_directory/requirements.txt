@@ -1,11 +1,11 @@
-flask
+Flask
 flask-cors
+Flask-Bcrypt
+Flask-JWT-Extended
 pandas
 numpy
 scipy
 opencv-python
 pymongo
-scikit-learn
-python-bcrypt
-flask-jwt-extended
+tensorflow
 joblib
