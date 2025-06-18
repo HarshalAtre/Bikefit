@@ -29,7 +29,7 @@ users = db["users"]
 history = db["history"]
 
 # TESTING
-@app.route('/ping', methods=['GET'])
+@app.route('/ping', methods=['GET', 'HEAD'])
 def ping():
     return jsonify({'status': 'ok', 'message': 'Server is running'}), 200
 
