@@ -9,3 +9,4 @@ opencv-python
 pymongo
 tensorflow
 joblib
+scikit-learn
