@@ -13,13 +13,13 @@ This project provides a comprehensive pipeline for analyzing cycling posture dat
 
 The pipeline evaluates 7 different aspects of cycling posture:
 
-1. *Knee Flexion*: Identifies under-flexion, normal, or over-flexion
-2. *Saddle Height*: Determines if the saddle is too low, normal, or too high
-3. *Saddle Position*: Evaluates if the saddle is too forward, normal, or too back
-4. *Reach Label*: Assesses if the rider has underreach, normal reach, or overreach
-5. *Hip Rocking*: Determines if hip movement is stable or unstable
-6. *Hip Asymmetry*: Identifies right-leaning, normal, or left-leaning hip position
-7. *Spine Asymmetry*: Evaluates right-leaning, normal, or left-leaning spine position
+1. *Knee Flexion*: Identifies under-flexion, normal, or over-flexion.
+2. *Saddle Height*: Determines if the saddle is too low, normal, or too high.
+3. *Saddle Position*: Evaluates if the saddle is too forward, normal, or too back.
+4. *Reach Label*: Assesses if the rider has underreach, normal reach, or overreach.
+5. *Hip Rocking*: Determines if hip movement is stable or unstable.
+6. *Hip Asymmetry*: Identifies right-leaning, normal, or left-leaning hip position.
+7. *Spine Asymmetry*: Evaluates right-leaning, normal, or left-leaning spine position.
 
 ## Installation
 
