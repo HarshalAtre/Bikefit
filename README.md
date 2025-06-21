@@ -78,17 +78,17 @@ Execution Directory: -
 
     -App.py: This script runs on server startup and keeps listening to port 7860, and when the backend receives a request from the client to process incoming data, it calls the following scripts.
     
-    -side_final_v3.py: This script processes the incoming calibration images, and side.mp4 to produce the Aruco calibration matrix and side_features.csv
+    -side_final_v3.py: This script processes the incoming calibration images, and side.mp4 to produce the Aruco calibration matrix and side_features.csv.
     
-    -back_final.py: This script is called by side_final_v3.py, this processes the rear.mp4 and produces the back_features.csv
+    -back_final.py: This script is called by side_final_v3.py, this processes the rear.mp4 and produces the back_features.csv.
     
     -merge.py: This script combines the side_features.csv and back_features.csv with user_input.csv to create the 13_input_features.csv which acts as the final input source for the classifiers.
     
     -rf_to_svm_models_zipped: Contains all working models for 7 dysfunctions in .pkl alongwith their best parameters, confusion matrices, encoder pickel files and relevant svm features after rf classification.
     
-    -feature_analysis: Contains feature importance information for each label in .png and .csv formats
+    -feature_analysis: Contains feature importance information for each label in .png and .csv formats.
     
-    -new_models: contains pre-trained DNN models in .h5 and .pkl formats
+    -new_models: contains pre-trained DNN models in .h5 and .pkl formats.
     
     -classification_master_v2.py: the main pipeline which calls each model and create decision for feature selection and making predictions for each models and storing the merged final predictions in a single csv.
     
